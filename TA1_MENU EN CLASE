@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int opc;
+    printf("TE DAMOS LA BIENVENIDA A UTIL OTRA VEZ\n" );
+    
+    printf("Selecciona 1 o 2 de acuerdo a lo que deseas relizar: \n");
+    printf("1. ¿Quieres aprender a reciclar tus desechos?\n");
+    printf ("2. salir del programa. \n");
+    scanf ("%d", &opc);
+    if(opc==1){
+        printf("Deseas Aprender \n"); 
+        printf("Deseas Conocer Puntos \n");
+        return 0;
+    }
+    
+     if(opc==2){
+         printf("Salida Exitosa");
+         return 0;
+     }
+   
+    return 0;
+}
