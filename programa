@@ -125,7 +125,7 @@ int main() {
                 printf("SALIENDO DEL PROGRAMA...");
                 exit(1);
             }else if (sub_opc == 7){
-                printf("VOLVIENDO AL MENU");
+                printf("VOLVIENDO AL MENU \n");
                 fin();
             }
         system ("cls");
