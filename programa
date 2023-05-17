@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+    int end = 1;
+    int opc = 0;
+    int sub_opc = 0;
+
+   
+    
+    while (end) { 
+        printf("BIENVENIDOS A UTIL OTRA VEZ, QUE DESEAS HACER? \n");
+        printf("[1] METODOS DE RECICLAJE \n");
+        printf("[2] PUNTOS DE RECICLAJE \n");
+        printf("[3] CANCELAR Y APAGAR \n");
+        
+        scanf("%d", &opc);
+        
+
+        printf("ACABAS DE SELECCIONAR LA OPCIÓN: %d \n", opc);
+        
+        if (opc == 1) {
+            
+            printf("QUE TIPO DE RESIDUO DESEAS UTILIZAR \n");
+            printf("[1] PAPEL Y CARTON \n");
+            printf("[2] PLÁSTICO Y ENVASES METÁLICOS \n");
+            printf("[3] RESIDUOS ORGÁNICOS \n");
+            printf("[4] VIDRIO \n");
+            printf("[5] DESECHOS PELIGROSOS \n");
+            printf("[6] VOLVER AL MENU PRINCIPAL \n");
+            printf("[7] SALIR DEL PROGRAMA \n");
+            
+            
+            scanf("%d", &sub_opc);
+            
+            if (sub_opc == 1) {
+                printf("GRACIAS POR SELECCIONAR LA OPCION DE PAPEL Y CARTON \n");
+                printf("A CONTINUACION TE DARE LOS SIGUIENTES METODOS:\n\n");
+            } else if (sub_opc == 2) {
+                printf("GRACIAS POR SELECCIONAR LA OPCION DE PLÁSTICO Y ENVASES METÁLICOS \n");
+            } else if (sub_opc == 3) {
+                printf("GRACIAS POR SELECCIONAR LA OPCION DE RESIDUOS ORGÁNICOS \n");
+            } else if (sub_opc == 4) {
+                printf("GRACIAS POR SELECCIONAR LA OPCION DE VIDRIOS \n");
+            } else if(sub_opc == 5) {
+                printf("GRACIAS POR SELECCIONAR LA OPCION DE DESECHOS PELIGROSOS \n");
+            } else if(sub_opc == 6) {
+                printf("VOLVIENDO AL MENU... \n");
+            } else if(sub_opc == 7) {
+                printf("SALIENDO DEL PROGRAMA... \n");
+            } 
+         
+        printf("DESEAS SALIR (0) O REGRESAR AL MENU PRINCIPAL (1) ");
+        scanf("%d", &end);
+            
+            
+            
+        } else if (opc == 2) {
+            
+            printf("QUE TIPO DE RESIDUO DESEAS UTILIZAR \n");
+            printf("[1] PAPEL Y CARTON \n");
+            printf("[2] PLÁSTICO Y ENVASES METÁLICOS \n");
+            printf("[3] RESIDUOS ORGÁNICOS \n");
+            printf("[4] VIDRIO \n");
+            printf("[5] DESECHOS PELIGROSOS \n");
+            printf("[6] VOLVER AL MENU PRINCIPAL \n");
+       } else if (opc == 4) {
+           printf("ACABAS DE CANCELAR, HASTA PRONTO... \n");
+       }
+    
+    }
+    
+    // system("pause");
+    return 0;
+}
