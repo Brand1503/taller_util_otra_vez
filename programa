@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int fin();
+int fin(void);
 int main() {
 
     int end = 1;
